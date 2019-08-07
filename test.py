@@ -15,7 +15,7 @@ class NameTestCase(TestCase):
         app=GhanianName()
         app.gender ='m'
         app.dob = '13/06/1998'
-        self.assertEqual(app.get_ghanian_name(),'Kwame')
+        self.assertEqual(app.get_ghanaian_name(),'Kwame')
 
 if __name__ == '__main__':
     main()

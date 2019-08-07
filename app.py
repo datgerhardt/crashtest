@@ -57,7 +57,7 @@ class GhanianName(object):
         date = datetime.datetime.strptime(self.dob, '%d/%m/%Y')
         return date.weekday()
 
-    def get_ghanian_name(self):
+    def get_ghanaian_name(self):
         return self.names[self.get_weekday()][self.gender]
 
     def get_weekday_name(self):
